@@ -1,0 +1,23 @@
+.container-wrapper h1, 
+.container-wrapper nav,
+.container-wrapper aside,
+.container-wrapper main,
+.container-wrapper footer {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.middle-row {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 200px; 
+}
+
+.container {
+    flex: 1;
+    margin: 5px; 
+    padding: 20px;
+    background-color: #98c1d9;
+    text-align: center;
+}
